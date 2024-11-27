@@ -1,0 +1,124 @@
+{
+  "addToDefaultIfMissing": true,
+  "calendars": [
+    {
+      "name": "Nomad",
+      "description": "",
+      "id": "ID_0b78d858b86a",
+      "showIntercalarySeparately": true,
+      "static": {
+        "incrementDay": false,
+        "firstWeekDay": 0,
+        "overflow": true,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Terros",
+            "id": "ID_4938f90b6959"
+          },
+          {
+            "type": "day",
+            "name": "Ignos",
+            "id": "ID_8adb4afa7b7a"
+          },
+          {
+            "type": "day",
+            "name": "Galos",
+            "id": "ID_fbaadac8f9ba"
+          },
+          {
+            "type": "day",
+            "name": "Hydros",
+            "id": "ID_d9198a98eafa"
+          }
+        ],
+        "months": [
+          {
+            "type": "month",
+            "name": "Spring",
+            "length": 90,
+            "id": "ID_9b8a9a3b5999",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Summer",
+            "length": 90,
+            "id": "ID_19480b0b2ab9",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Autumn",
+            "length": 90,
+            "id": "ID_2929aa6ada7a",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Winter",
+            "length": 90,
+            "id": "ID_4b3bea582969",
+            "interval": 1,
+            "offset": 0
+          }
+        ],
+        "moons": [],
+        "displayMoons": true,
+        "displayDayNumber": false,
+        "leapDays": [],
+        "eras": [],
+        "padMonths": 1,
+        "padDays": 2
+      },
+      "current": {
+        "day": 80,
+        "month": 1,
+        "year": 7296
+      },
+      "events": [],
+      "categories": [],
+      "autoParse": false,
+      "path": [
+        "/"
+      ],
+      "supportInlineEvents": false,
+      "inlineEventTag": "#inline-events",
+      "dateFormat": "YYYY-MM-DD"
+    }
+  ],
+  "configDirectory": null,
+  "dailyNotes": false,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultCalendar": "ID_0b78d858b86a",
+  "eventPreview": false,
+  "exit": {
+    "saving": false,
+    "event": false,
+    "calendar": false,
+    "savingEvent": false
+  },
+  "eventFrontmatter": false,
+  "parseDates": true,
+  "version": {
+    "major": 1,
+    "minor": 5,
+    "patch": 0,
+    "beta": null
+  },
+  "debug": true,
+  "askedToMoveFC": false,
+  "askedAboutSync": false,
+  "syncBehavior": "Ask",
+  "inlineEventsTag": "NOMAD",
+  "paths": [
+    [
+      "Nomads Sunwolves/Session Notes",
+      "ID_0b78d858b86a"
+    ]
+  ],
+  "autoParse": true
+}

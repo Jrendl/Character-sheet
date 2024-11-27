@@ -1,0 +1,12 @@
+{
+  "ITS@@ITS-Sizes": "sizing-readable",
+  "ITS@@radius-s": 4,
+  "ITS@@scrollbar-width": 4,
+  "ITS@@ribbon-icon-size": 18,
+  "ITS@@sidebar-tab-icon-size": 18,
+  "ITS@@titlebar-colors": true,
+  "ITS@@titlebar-bubbles": false,
+  "ITS@@tab-widths": "tab-wide",
+  "ITS@@ITS-Sidebar-Styling": "none",
+  "ITS@@ITS-Sidebar-Ribbon-Float": "none"
+}

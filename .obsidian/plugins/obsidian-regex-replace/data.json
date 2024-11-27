@@ -1,0 +1,10 @@
+{
+  "findText": "hit_die_max",
+  "replaceText": "hitDieMax",
+  "useRegEx": true,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": false,
+  "processTab": false,
+  "prefillFind": false
+}

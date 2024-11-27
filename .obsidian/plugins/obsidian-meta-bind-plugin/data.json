@@ -1,0 +1,306 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000,
+  "enableJs": true,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "Drop",
+      "id": "drop-shield",
+      "style": "destructive",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "ac",
+          "evaluate": true,
+          "value": "x - 5"
+        }
+      ]
+    },
+    {
+      "label": "Shield",
+      "id": "shield",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "ac",
+          "evaluate": true,
+          "value": "x + 5"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "x - 2"
+        }
+      ]
+    },
+    {
+      "label": "Mage Armor",
+      "id": "mage-arm",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "ac",
+          "evaluate": true,
+          "value": "13 + getMetadata('mods.dex')"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "x - 2"
+        }
+      ]
+    },
+    {
+      "label": "Drop",
+      "id": "drop-mage-arm",
+      "style": "destructive",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "ac",
+          "evaluate": true,
+          "value": "getMetadata('reg_ac')"
+        }
+      ]
+    },
+    {
+      "label": "Sorcery Incarnate",
+      "id": "sorc-inc",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "x - 2"
+        }
+      ]
+    },
+    {
+      "label": "Quickened Spell",
+      "id": "quick-spell",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "x - 2"
+        }
+      ]
+    },
+    {
+      "label": "Careful Spell",
+      "id": "care-spell",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "x - 1"
+        }
+      ]
+    },
+    {
+      "label": "Drop",
+      "id": "inn-sorc-drop",
+      "style": "destructive",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "mods.inn",
+          "evaluate": true,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "label": "Innate Sorcery",
+      "id": "inn-sorc",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "mods.inn",
+          "evaluate": false,
+          "value": 1
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "inn_sorc_uses",
+          "evaluate": true,
+          "value": "x - 1"
+        }
+      ]
+    },
+    {
+      "label": "5th Level",
+      "id": "fifth-level",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "x - 7"
+        }
+      ]
+    },
+    {
+      "label": "4th Level",
+      "id": "fourth-level",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "x - 6"
+        }
+      ]
+    },
+    {
+      "label": "3rd Level",
+      "id": "third-level",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "x - 5"
+        }
+      ]
+    },
+    {
+      "label": "2nd Level",
+      "id": "second-level",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "x - 3"
+        }
+      ]
+    },
+    {
+      "label": "1st Level",
+      "id": "first-level",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "x - 2"
+        }
+      ]
+    },
+    {
+      "label": "Long Rest",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "Take a long rest",
+      "id": "l-r",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "curHP",
+          "evaluate": true,
+          "value": "getMetadata('maxHP')"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "tempHP",
+          "evaluate": true,
+          "value": "0"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "cur_sp",
+          "evaluate": true,
+          "value": "getMetadata('max_sp')"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "curHitDice",
+          "evaluate": true,
+          "value": "Math.min(x+Math.floor(getMetadata('maxHitDice')/2), getMetadata('maxHitDice'))"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "ac",
+          "evaluate": true,
+          "value": "getMetadata('reg_ac')"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "inn_sorc_uses",
+          "evaluate": true,
+          "value": "2"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "TOC",
+          "evaluate": true,
+          "value": "false"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "Hell_reb",
+          "evaluate": true,
+          "value": "false"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "darkness",
+          "evaluate": true,
+          "value": "false"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "lucky_1",
+          "evaluate": true,
+          "value": "false"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "lucky_2",
+          "evaluate": true,
+          "value": "false"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "lucky_3",
+          "evaluate": true,
+          "value": "false"
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}

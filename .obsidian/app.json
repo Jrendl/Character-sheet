@@ -1,0 +1,11 @@
+{
+  "attachmentFolderPath": "assets",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "propertiesInDocument": "source",
+  "useTab": false,
+  "livePreview": true
+}

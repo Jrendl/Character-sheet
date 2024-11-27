@@ -1,0 +1,419 @@
+{
+  "main": {
+    "id": "b51b48e094ac0e35",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe92680d529917b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d39f29dd476d82d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      },
+      {
+        "id": "35c53184db727793",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10c8923505ff6d88",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "048f28757f3d2114",
+    "type": "split",
+    "children": [
+      {
+        "id": "977839681087b4fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96ce4985474091c1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "404bb0fc1eb65b7a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "46d89946db1448b4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "dab73b771ed65d58",
+    "type": "split",
+    "children": [
+      {
+        "id": "923a0e59f4b775fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d71223b877348a6d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Nomads Sunwolves/Reference/Backstory.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Backstory"
+            }
+          },
+          {
+            "id": "3d3223cf411cd15a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Nomads Sunwolves/Reference/Backstory.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Backstory"
+            }
+          },
+          {
+            "id": "b0f1e903bb26448e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2eac3ebbdf64e229",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Nomads Sunwolves/Reference/Backstory.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Backstory"
+            }
+          },
+          {
+            "id": "69fd5ce1a5584f20",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_0b78d858b86a",
+                "ephemeral": {
+                  "viewing": {
+                    "day": 63,
+                    "month": 1,
+                    "year": 7296
+                  },
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 62,
+                    "month": 1,
+                    "year": 7296
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                },
+                "id": "ID_2bbbcafb1868",
+                "child": "ID_d8fae8f85b0a"
+              },
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "2ad08244c27b4c64",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_0b78d858b86a",
+                "ephemeral": {
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 62,
+                    "month": 1,
+                    "year": 7296
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                },
+                "id": "ID_a8a94bbb0bd8"
+              },
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "33bc2b59791ab52f",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_0b78d858b86a",
+                "ephemeral": {
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 62,
+                    "month": 1,
+                    "year": 7296
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                },
+                "id": "ID_d9ab1939d8e8"
+              },
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0b616a789c5924c9",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_0b78d858b86a",
+                "ephemeral": {
+                  "viewing": {
+                    "day": 62,
+                    "month": 1,
+                    "year": 7296
+                  },
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 62,
+                    "month": 1,
+                    "year": 7296
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                },
+                "id": "ID_489ba9da8988",
+                "child": "ID_f9da8bf82b98"
+              },
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6cfe709905eebfc0",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_0b78d858b86a",
+                "ephemeral": {
+                  "viewing": {
+                    "day": 80,
+                    "month": 1,
+                    "year": 7296
+                  },
+                  "viewState": 2,
+                  "displaying": {
+                    "day": 79,
+                    "month": 1,
+                    "year": 7296
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                },
+                "id": "ID_6939eb28a98a",
+                "child": "ID_08099aeadb59"
+              },
+              "icon": "CALENDARIUM",
+              "title": "Calendarium"
+            }
+          }
+        ],
+        "currentTab": 8
+      },
+      {
+        "id": "15caa0a85e2302fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2419d7cf62f63fd",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_0b78d858b86a",
+                "id": "ID_d8fae8f85b0a",
+                "parent": "ID_2bbbcafb1868"
+              },
+              "icon": "CALENDARIUM_AGENDA",
+              "title": "Agenda"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0babe9505564abab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63695035b36783d9",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_0b78d858b86a",
+                "id": "ID_f9da8bf82b98",
+                "parent": "ID_489ba9da8988"
+              },
+              "icon": "CALENDARIUM_AGENDA",
+              "title": "Agenda"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c8fb00eabeb796dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d956ce8c25715af",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_0b78d858b86a",
+                "id": "ID_08099aeadb59",
+                "parent": "ID_6939eb28a98a"
+              },
+              "icon": "CALENDARIUM_AGENDA",
+              "title": "Agenda"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 351.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "calendarium:Open Calendarium": false
+    }
+  },
+  "active": "10c8923505ff6d88",
+  "lastOpenFiles": [
+    "Avail commands.md",
+    "scripts/spellScaling.js",
+    "scripts/getSessionNum.js",
+    "scripts/getPrevLR.js",
+    "scripts/dateTitle.js",
+    "scripts",
+    "assets/roll20.md",
+    "Templates/Spell.md",
+    "Templates/Spell Slot Scaling.md",
+    "Templates/Sorcerer SP Spell Stats.md",
+    "Templates/Spell Scaling Fill.md",
+    "Templates/Sorc Level Scaling.md",
+    "Templates/Session Notes.md",
+    "Templates/New Day.md",
+    "Templates/General Character Info.md",
+    "Templates/Common Character Sheet Template.md",
+    "Templates/Class Feat.md",
+    "Templates/Character Proficiencies.md",
+    "Templates/Character Stats.md",
+    "Templates/Character Abilities.md",
+    "Templates/Buttons.md",
+    "Templates",
+    "Nomads Sunwolves/Reference/Spells/Tongues.md",
+    "Nomads Sunwolves/Reference/Spells/Thaumaturgy.md",
+    "Nomads Sunwolves/Reference/Spells/Suggestion.md",
+    "Nomads Sunwolves/Reference/Spells/Shocking Grasp.md",
+    "Nomads Sunwolves/Reference/Spells/Shield.md",
+    "Nomads Sunwolves/Reference/Spells/Prestidigitation.md",
+    "Nomads Sunwolves/Reference/Spells/Mind Spike.md",
+    "Nomads Sunwolves/Reference/Spells/Mind Sliver.md",
+    "Nomads Sunwolves/Reference/Spells/Message.md",
+    "Nomads Sunwolves/Reference/Spells/Melf's Acid Arrow.md",
+    "Nomads Sunwolves/Reference/Spells",
+    "Nomads Sunwolves/Reference",
+    "scripts/view1.js",
+    "scripts/getComponent.js",
+    "Templates/Untitled.canvas",
+    "assets/Freelands.png",
+    "Untitled.canvas"
+  ]
+}

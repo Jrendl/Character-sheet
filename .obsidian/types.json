@@ -1,0 +1,27 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "level": "number",
+    "maxHP": "number",
+    "reg_ac": "number",
+    "tempHP": "number",
+    "curHitDice": "number",
+    "hit_die_max": "number",
+    "insp": "number",
+    "inn_sorc_uses": "number",
+    "CHA": "number",
+    "WIS": "number",
+    "INT": "number",
+    "CON": "number",
+    "DEX": "number",
+    "STR": "number",
+    "ac": "number",
+    "maxHitDice": "number",
+    "cur_sp": "number",
+    "max_sp": "number",
+    "curHP": "number",
+    "prof": "number"
+  }
+}

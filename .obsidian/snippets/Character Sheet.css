@@ -1,0 +1,647 @@
+@import url('https://chainsawxiv.github.io/DST/common/css/csx_pathfinder_common.css');
+@import url('https://chainsawxiv.github.io/DST/common/css/csx_tip.css');
+/* STRUCTURE */
+.ds_nameless_dd5e .sheet-container {
+	font-size: 12px;
+	position: relative;
+}
+.ds_nameless_dd5e .two-box {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15px;
+	align-items: start;
+}
+.ds_nameless_dd5e .two-column {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+	align-items: start;
+}
+.ds_nameless_dd5e .two-column-big {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15px;
+	align-items: start;
+}
+.ds_nameless_dd5e .two-column-set {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+}
+.ds_nameless_dd5e .top-area-grid {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 15px;
+	align-items: end;
+	margin-bottom: 15px;
+}
+.ds_nameless_dd5e .two-column-right {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 15px;
+	align-items: start;
+}
+.ds_nameless_dd5e .meta-grid {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	grid-gap: 5px;
+	grid-template-areas:
+		"class alignment"
+		"race experience"
+		"background next-level"
+		"campaign campaign"
+	;
+	margin-bottom: 15px;
+}
+.ds_nameless_dd5e .meta-grid .meta-class {
+	grid-area: class;
+}
+.ds_nameless_dd5e .meta-grid .meta-alignment {
+	grid-area: alignment;
+}
+.ds_nameless_dd5e .meta-grid .meta-race {
+	grid-area: race;
+}
+.ds_nameless_dd5e .meta-grid .meta-experience {
+	grid-area: experience
+}
+.ds_nameless_dd5e .meta-grid .meta-campaign {
+	grid-area: campaign;
+}
+.ds_nameless_dd5e .two-column-left-set {
+	display: grid;
+	grid-template-columns: 57% 1fr;
+	grid-gap: 5px;
+}
+.ds_nameless_dd5e .three-column {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
+	align-items: start;
+}
+.ds_nameless_dd5e .three-column-set {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5px;
+	align-items: start;
+}
+.ds_nameless_dd5e .six-column {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 5px;
+	align-items: start;
+}
+.ds_nameless_dd5e .single-skill {
+	display: grid;
+	grid-template-columns: 1fr 40px;
+	grid-gap: 5px;
+	align-items: start;
+}
+.ds_nameless_dd5e .ability-row {
+	display: grid;
+	grid-template-columns: 1fr 40px 40px;
+	grid-gap: 5px;
+}
+.ds_nameless_dd5e .check-label {
+	display: grid;
+	grid-template-columns: 12px 1fr;
+	grid-gap: 5px;
+	padding-left: 3px;
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+}
+.ds_nameless_dd5e .dbl-check-label {
+	display: grid;
+	grid-template-columns: 12px 12px 1fr;
+	grid-gap: 5px;
+	padding-left: 3px;
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+}
+.ds_nameless_dd5e .triple-check-label {
+	display: grid;
+	grid-template-columns: 12px 12px 12px 1fr;
+	grid-gap: 5px;
+	padding-left: 3px;
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+	height: 19px;
+	margin-top: 5px;
+}
+.ds_nameless_dd5e .check-label .checkbox,
+.ds_nameless_dd5e .dbl-check-label .checkbox {
+	height: 12px;
+	margin-top: 2px;
+}
+.ds_nameless_dd5e .spaced {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.ds_nameless_dd5e .variable-pair {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-gap: 5px;
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+	overflow: hidden;
+	padding-top: 1px;
+}
+.ds_nameless_dd5e .variable-pair2 {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-gap: 5px;
+	overflow: hidden;
+	padding-top: 1px;
+}
+.ds_nameless_dd5e .variable-pair3 {
+	display: grid;
+	grid-template-columns: 8px 1fr;
+	grid-gap: 5px;
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+	overflow: hidden;
+	padding-top: 1px;
+}
+.ds_nameless_dd5e .list-grid {
+	display: grid;
+	grid-template-columns: 0px 1fr auto auto;
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+	overflow: hidden;
+	height: 19px;
+	line-height: 19px;
+	/*position: relative;*/
+}
+.ds_nameless_dd5e.editable .list-grid {
+	grid-template-columns: 8px 1fr auto auto;
+}
+.ds_nameless_dd5e .plain-list {
+	display: grid;
+	grid-template-columns: 0px 1fr;
+	grid-gap: 5px;
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+	overflow: hidden;
+	height: 19px;
+	line-height: 19px;
+	position: relative;
+	margin-top: 3px;
+}
+.ds_nameless_dd5e.editable .plain-list {
+	grid-template-columns: 8px 1fr
+}
+.ds_nameless_dd5e .handle-space {
+	display: block;
+}
+.ds_nameless_dd5e.editable .handle-space {
+	display: none;
+}
+.ds_nameless_dd5e .list-grid .edit {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.ds_nameless_dd5e .list.list_inventory {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px 15px;
+}
+.ds_nameless_dd5e .skill-labels {
+	display: grid;
+	grid-template-columns: 12px 12px 1fr 40px;
+	grid-gap: 5px;
+	font-size: 8px;
+	height: 13px;
+	line-height: 13px;
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+}
+.ds_nameless_dd5e .inventory-labels {
+	display: grid;
+	grid-template-columns: 1fr 40px;
+	grid-gap: 5px;
+	font-size: 8px;
+	height: 13px;
+	line-height: 13px;
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+}
+.ds_nameless_dd5e .skill-grid .ability-header {
+	margin-bottom: 0px;
+}
+.ds_nameless_dd5e .skill-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px 15px;
+	align-items: start;
+	grid-template-areas:
+		"skill-header skill-header"
+		"label-left label-right"
+		"acrobatics medicine"
+		"animal nature"
+		"arcana perception"
+		"athletics performance"
+		"deception persuasion"
+		"history religion"
+		"insight sleight"
+		"intimidation stealth"
+		"investigation survival"
+	;
+}
+.ds_nameless_dd5e .skill-grid .skill-header {
+	grid-area: skill-header;
+}
+.ds_nameless_dd5e .skill-grid .label-left {
+	grid-area: label-left;
+}
+.ds_nameless_dd5e .skill-grid .label-right {
+	grid-area: label-right;
+}
+.ds_nameless_dd5e .skill-grid .acrobatics {
+	grid-area: acrobatics;
+}
+.ds_nameless_dd5e .skill-grid .animal {
+	grid-area: animal;
+}
+.ds_nameless_dd5e .skill-grid .arcana {
+	grid-area: arcana;
+}
+.ds_nameless_dd5e .skill-grid .athletics {
+	grid-area: athletics;
+}
+.ds_nameless_dd5e .skill-grid .deception {
+	grid-area: deception;
+}
+.ds_nameless_dd5e .skill-grid .history {
+	grid-area: history;
+}
+.ds_nameless_dd5e .skill-grid .insight {
+	grid-area: insight;
+}
+.ds_nameless_dd5e .skill-grid .intimidation {
+	grid-area: intimidation;
+}
+.ds_nameless_dd5e .skill-grid .investigation {
+	grid-area: investigation;
+}
+.ds_nameless_dd5e .skill-grid .medicine {
+	grid-area: medicine;
+}
+.ds_nameless_dd5e .skill-grid .nature {
+	grid-area: nature;
+}
+.ds_nameless_dd5e .skill-grid .perception {
+	grid-area: perception;
+}
+.ds_nameless_dd5e .skill-grid .performance {
+	grid-area: performance;
+}
+.ds_nameless_dd5e .skill-grid .persuasion {
+	grid-area: persuasion;
+}
+.ds_nameless_dd5e .skill-grid .religion {
+	grid-area: religion;
+}
+.ds_nameless_dd5e .skill-grid .sleight {
+	grid-area: sleight;
+}
+.ds_nameless_dd5e .skill-grid .stealth {
+	grid-area: stealth;
+}
+.ds_nameless_dd5e .skill-grid .survival {
+	grid-area: survival;
+}
+.ds_nameless_dd5e .ability-grid {
+	display: grid;
+	grid-template-columns: 40px 40px 1fr 40px;
+	grid-gap: 5px;
+	margin-top: 5px;
+}
+.ds_nameless_dd5e .hit-dice-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+	
+}
+.ds_nameless_dd5e .list_first {
+	display: grid;
+	grid-template-columns: 8px 1fr;
+	grid-gap: 5px;
+}
+.ds_nameless_dd5e .tabs-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5px;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+.ds_nameless_dd5e .tab {
+	height: 45px;
+	background-size: 45px 45px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-color: #DDDDDD;
+}
+.ds_nameless_dd5e .tab:hover {
+	cursor: pointer;
+}
+.ds_nameless_dd5e .tab-1 {
+	background-image: url('https://chainsawxiv.github.io/DST/common/images/crunch.png');
+	background-color: #FFFFFF;
+}
+.ds_nameless_dd5e .tab-1:hover {
+	background-image: url('https://chainsawxiv.github.io/DST/common/images/crunch_hover.png');
+}
+.ds_nameless_dd5e .tab-2 {
+	background-image: url('https://chainsawxiv.github.io/DST/common/images/equipment.png');
+}
+.ds_nameless_dd5e .tab-2:hover {
+	background-image: url('https://chainsawxiv.github.io/DST/common/images/equipment_hover.png');
+}
+.ds_nameless_dd5e .tab-3 {
+	background-image: url('https://chainsawxiv.github.io/DST/common/images/magic.png');
+}
+.ds_nameless_dd5e .tab-3:hover {
+	background-image: url('https://chainsawxiv.github.io/DST/common/images/magic_hover.png');
+}
+.ds_nameless_dd5e .tab-4 {
+	background-image: url('https://chainsawxiv.github.io/DST/common/images/fluff.png');
+}
+.ds_nameless_dd5e .tab-4:hover {
+	background-image: url('https://chainsawxiv.github.io/DST/common/images/fluff_hover.png');
+}
+
+/* LOOK */
+.ds_nameless_dd5e .grey-round {
+	background-color: #dddddd;
+	border-radius: 6px;
+	border: 1px solid grey;
+}
+.ds_nameless_dd5e .sub-header {
+	background-color: #dddddd;
+	font-weight: bold;
+	padding-left: 3px;
+}
+.ds_nameless_dd5e .dsf_avatar_image {
+	border: 1px solid black;
+	border-radius: 6px;
+	box-shadow: 2px 2px 2px #808080;
+	overflow: hidden;
+}
+.ds_nameless_dd5e .sheet-notes {
+	display: none;
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+	text-align: center;
+	padding-bottom: 1px;
+	height: 18px;
+	margin-bottom: 5px;
+}
+.ds_nameless_dd5e.editable .sheet-notes {
+	display: block;
+}
+.ds_nameless_dd5e .label-text {
+	font-weight: bold;
+	padding-left: 3px;
+}
+.ds_nameless_dd5e .label-text-plain {
+	padding-left: 3px;
+}
+.ds_nameless_dd5e .round-border {
+	border: 1px solid black;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.ds_nameless_dd5e .round-divider {
+	border-bottom: 1px solid grey;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.ds_nameless_dd5e .value-dsf {
+	text-align: center;
+	height: 18px;
+	background-color: white;
+}
+.ds_nameless_dd5e .ability-header {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-variant: small-caps;
+	padding-left: 3px;
+	border-radius: 3px;
+	border: 1px solid black;
+	margin-bottom: 5px;
+}
+.ds_nameless_dd5e .dsf input {
+	max-height: 100%;
+	max-width: 90%;
+	padding: 0px;
+	font-size: 12px;
+}
+.ds_nameless_dd5e.editable .dsf,
+.ds_nameless_dd5e.editable .edit,
+.ds_nameless_dd5e.editable .csx .dsf:hover,
+.ds_nameless_dd5e.editable .csx .edit:hover,
+.ds_nameless_dd5e.editable .csx .dsf:focus,
+.ds_nameless_dd5e.editable .csx .edit:focus {
+	background-color: #CDF;
+	display: block;
+}
+.ds_nameless_dd5e.editable .csx .dsf.readonly,
+.ds_nameless_dd5e.editable .csx .dsf.readonly:hover {
+	background-color: transparent;
+}
+.ds_nameless_dd5e .csx ul {
+	margin-bottom: 0px;
+}
+.ds_nameless_dd5e .csx .list li.item:nth-of-type(2n+1) {
+	background-color: initial;
+}
+.ds_nameless_dd5e .jeditable_input button {
+	display: none;
+}
+.ds_nameless_dd5e .thick-padded {
+	padding: 10px;
+}
+.ds_nameless_dd5e .padded {
+	padding: 4px;
+}
+.ds_nameless_dd5e .centered {
+	text-align: center;
+}
+.ds_nameless_dd5e .character-name {
+	text-align: center;
+	font-size: 18px;
+	border-bottom: 1px solid grey;
+	border-radius: 4px;
+	margin: 5px 0px;
+}
+.ds_nameless_dd5e .quick-value {
+	height: 36px;
+	font-size: 24px;
+	border: 2px solid black;
+	text-align: center;
+	border-radius: 3px;
+	background-color: white;
+	margin-bottom: 5px;
+}
+.ds_nameless_dd5e .quick-label {
+	border-top: 1px solid black;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 3px;
+}
+.ds_nameless_dd5e .csx .hidden {
+	display: none;
+}
+.ds_nameless_dd5e .csx .dsf p {
+	margin-bottom: 1.25em;
+}
+.ds_nameless_dd5e .single-attribute {
+	margin-top: 15px;
+}
+.ds_nameless_dd5e .single-attribute .single-skill {
+	margin-top: 5px;
+}
+.ds_nameless_dd5e .single-attribute .ability-header {
+	margin-bottom: 0px;
+}
+.ds_nameless_dd5e .csx .check {
+	margin:0px;
+}
+.ds_nameless_dd5e .csx .check .checkBorder {
+	background-image: url('https://blog.obsidianportal.com/wp-content/uploads/2019/10/check-border-1.png');
+	background-size:12px 12px;
+}
+.ds_nameless_dd5e .csx .check .checkOff,
+.ds_nameless_dd5e .csx .check .checkOff:hover {
+	background-image: url('https://blog.obsidianportal.com/wp-content/uploads/2019/10/check-off.png');
+}
+.ds_nameless_dd5e .csx .check .checkOn,
+.ds_nameless_dd5e .csx .check .checkOn:hover {
+	background-image: url('https://blog.obsidianportal.com/wp-content/uploads/2019/10/check-on.png');
+}
+.ds_nameless_dd5e .custom.dropdown.ability-selector.hidden-field {
+	display: none;
+}
+.ds_nameless_dd5e .variable-pair .ability-selector,
+.ds_nameless_dd5e .variable-pair .ac-selector {
+	border: none;
+	border-bottom-right-radius: 3px;
+	margin: 0;
+}
+.ds_nameless_dd5e .ability-score-label {
+	font-variant: small-caps;
+}
+.ds_nameless_dd5e .small-text {
+	font-size: 8px;
+}
+.ds_nameless_dd5e .space-bottom {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.ds_nameless_dd5e .bottom-space {
+	margin-bottom: 15px;
+}
+.ds_nameless_dd5e .bottom-space2 {
+	margin-bottom: 5px;
+}
+.ds_nameless_dd5e.editable .bottom-space2{
+	margin-bottom: 0px;
+}
+.ds_nameless_dd5e .top-space {
+	margin-top: 5px;
+}
+.ds_nameless_dd5e .top-space2 {
+	margin-top: 3px;
+}
+.ds_nameless_dd5e .top-space-big {
+	margin-top: 15px;
+}
+.ds_nameless_dd5e .smaller {
+	font-size: 10px;
+}
+.ds_nameless_dd5e .spells .sub-header {
+	margin-bottom: 5px;
+}
+.ds_nameless_dd5e .ac-selector {
+	margin-bottom: 5px;
+}
+.ds_nameless_dd5e .footer .dsf_dst_author {
+	display: inline-block;
+}
+.ds_nameless_dd5e .inventory-grid {
+	margin-bottom: 5px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 800px) {
+	.ds_nameless_dd5e .smaller {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.ds_nameless_dd5e .two-column,
+	.ds_nameless_dd5e .two-box,
+	.ds_nameless_dd5e .two-column-big,
+	.ds_nameless_dd5e .two-column-wide,
+	.ds_nameless_dd5e .top-area-grid,
+	.ds_nameless_dd5e .two-column-right,
+	.ds_nameless_dd5e .meta-grid,
+	.ds_nameless_dd5e .three-column,
+	.ds_nameless_dd5e .list.list_inventory {
+		grid-template-columns: 1fr;
+	}
+	.ds_nameless_dd5e .six-column {
+			grid-template-columns: repeat(3, 1fr);
+	}
+	.ds_nameless_dd5e .meta-grid {
+		grid-template-areas:
+			"class"
+			"race"
+			"background"
+			"alignment"
+			"experience"
+			"next-level"
+			"campaign"
+		;
+	}
+	.ds_nameless_dd5e .skill-grid .label-right,
+	.ds_nameless_dd5e .inventory-grid .label-right {
+		display: none;
+	}
+	.ds_nameless_dd5e .skill-grid {
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			"skill-header"
+			"label-left"
+			"acrobatics"
+			"animal"
+			"arcana"
+			"athletics"
+			"deception"
+			"history"
+			"insight"
+			"intimidation"
+			"investigation"
+			"medicine"
+			"nature"
+			"perception"
+			"performance"
+			"persuasion"
+			"religion"
+			"sleight"
+			"stealth"
+			"survival"
+		;
+	}
+	.ds_nameless_dd5e .list .two-column {
+		margin-bottom: 5px;
+	}
+	.ds_nameless_dd5e .smaller {
+		display: inline-block;
+	}
+}

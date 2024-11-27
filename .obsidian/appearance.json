@@ -1,0 +1,11 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "ITS Theme",
+  "enabledCssSnippets": [
+    "center tables",
+    "Images Adjustments",
+    "Character Sheet",
+    "metabind"
+  ],
+  "accentColor": ""
+}
