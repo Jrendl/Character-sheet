@@ -42,7 +42,7 @@
         },
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
           "value": "x - 2"
         }
@@ -61,7 +61,7 @@
         },
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
           "value": "x - 2"
         }
@@ -76,7 +76,7 @@
           "type": "updateMetadata",
           "bindTarget": "ac",
           "evaluate": true,
-          "value": "getMetadata('reg_ac')"
+          "value": "getMetadata('regAC')"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "actions": [
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
           "value": "x - 2"
         }
@@ -100,7 +100,7 @@
       "actions": [
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
           "value": "x - 2"
         }
@@ -113,7 +113,7 @@
       "actions": [
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
           "value": "x - 1"
         }
@@ -158,7 +158,7 @@
       "actions": [
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
           "value": "x - 7"
         }
@@ -171,7 +171,7 @@
       "actions": [
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
           "value": "x - 6"
         }
@@ -184,7 +184,7 @@
       "actions": [
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
           "value": "x - 5"
         }
@@ -197,7 +197,7 @@
       "actions": [
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
           "value": "x - 3"
         }
@@ -210,7 +210,7 @@
       "actions": [
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
           "value": "x - 2"
         }
@@ -239,9 +239,9 @@
         },
         {
           "type": "updateMetadata",
-          "bindTarget": "cur_sp",
+          "bindTarget": "curSP",
           "evaluate": true,
-          "value": "getMetadata('max_sp')"
+          "value": "getMetadata('maxSP')"
         },
         {
           "type": "updateMetadata",
@@ -253,7 +253,7 @@
           "type": "updateMetadata",
           "bindTarget": "ac",
           "evaluate": true,
-          "value": "getMetadata('reg_ac')"
+          "value": "getMetadata('regAC')"
         },
         {
           "type": "updateMetadata",
@@ -269,7 +269,7 @@
         },
         {
           "type": "updateMetadata",
-          "bindTarget": "Hell_reb",
+          "bindTarget": "HellReb",
           "evaluate": true,
           "value": "false"
         },

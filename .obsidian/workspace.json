@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Examples/Theo.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Theo"
             }
           }
         ]
@@ -368,8 +368,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "96ce4985474091c1",
+  "active": "d39f29dd476d82d6",
   "lastOpenFiles": [
+    "README.md",
+    "Examples/Theo.md",
     "Avail commands.md",
     "scripts/spellScaling.js",
     "scripts/getSessionNum.js",
@@ -400,8 +402,6 @@
     "Nomads Sunwolves/Reference/Spells/Prestidigitation.md",
     "Nomads Sunwolves/Reference/Spells/Mind Spike.md",
     "Nomads Sunwolves/Reference/Spells/Mind Sliver.md",
-    "Nomads Sunwolves/Reference/Spells/Message.md",
-    "Nomads Sunwolves/Reference/Spells/Melf's Acid Arrow.md",
     "Nomads Sunwolves/Reference/Spells",
     "Nomads Sunwolves/Reference",
     "scripts/view1.js",

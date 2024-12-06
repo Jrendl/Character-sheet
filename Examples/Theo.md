@@ -8,22 +8,22 @@ cssclasses:
   - readable
   - m
 level: 8
-prof: "3"
+prof: 3
 maxHP: 50
 curHP: 50
 tempHP: 0
 maxSP: "52"
-curSP: 42
+curSP: 48
 curHitDice: 8
 maxHitDice: 8
-ac: 15
+ac: 12
 regAC: 12
-STR: "8"
-DEX: "14"
-CON: "14"
-INT: "12"
-WIS: "11"
-CHA: "18"
+STR: 8
+DEX: 14
+CON: 14
+INT: 12
+WIS: 11
+CHA: 18
 profs:
   skills:
     acro: false
@@ -51,7 +51,7 @@ profs:
     str: false
     int: false
     wis: false
-inn_sorc_uses: 1
+inn_sorc_uses: 2
 mods:
   str: -1
   dex: 2
@@ -70,21 +70,19 @@ saves:
 coin:
   CP: 0
   SP: 2
-  GP: 115
-  PP: 77
-  CR: 40
+  GP: 574
+  PP: 0
+  CR: 63
 TOC: false
-Hell_reb: false
+HellReb: false
 darkness: false
 lucky_1: true
 lucky_2: false
 lucky_3: false
-insp: 1
-hitDieMax: "6"
+insp: 2
+hitDieMax: 6
 med_of_thot:
   first: false
-  second: false
-  third: false
 items_attunement:
   - false
   - false
@@ -261,7 +259,7 @@ In addition, while your Innate Sorcery feature is active, you can use up to two 
 You know the Thaumaturgy cantrip.
 	When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.
 ## Infernal Legacy
-Hellish Rebuke `INPUT[toggle:Hell_reb]`
+Hellish Rebuke `INPUT[toggle:HellReb]`
 Darkness `INPUT[toggle:darkness]`
 You have Resistance to Fire damage. You also know the Fire Bolt cantrip.
 	- **At 3rd level** you can cast the *Hellish Rebuke* spell at will once per long rest
@@ -341,7 +339,7 @@ range AS Range,
 aoe AS AOE,
 save_attk AS "Save/Attk",
 choice(scaling = "Sorcerer Level", damage[floor((this.level+1)/6)+1], flat(damage)) AS Damage
-FROM "Nomads Sunwolves/Reference/Spells"
+FROM "Reference/Spells"
 WHERE base_level = 0 AND prepared
 SORT file.name ASCENDING
 ```
@@ -350,7 +348,7 @@ SORT file.name ASCENDING
 `BUTTON[first-level]` `BUTTON[second-level]` `BUTTON[third-level]` `BUTTON[fourth-level]` `BUTTON[fifth-level]` 
 
 Darkness `INPUT[toggle:darkness]`
-Hellish Rebuke `INPUT[toggle:Hell_reb]`
+Hellish Rebuke `INPUT[toggle:HellReb]`
 Medalian of Thoughts `INPUT[toggle:med_of_thot.first]` `INPUT[toggle:med_of_thot.second]` `INPUT[toggle:med_of_thot.third]`
 Enspelled Staff `INPUT[toggle:ens_staff[0]]` `INPUT[toggle:ens_staff[1]]` `INPUT[toggle:ens_staff[2]]` `INPUT[toggle:ens_staff[3]]` `INPUT[toggle:ens_staff[4]]` `INPUT[toggle:ens_staff[5]]` 
 
@@ -370,7 +368,7 @@ aoe AS AOE,
 save_attk AS "Save/Attk",
 choice(scaling = "Sorcerer Level", damage[floor((this.level+1)/6)+1], flat(damage)) AS Damage,
 spell_eff as "Spell Effects"
-FROM "Nomads Sunwolves/Reference/Spells"
+FROM "Reference/Spells"
 WHERE base_level >= 1 AND prepared
 SORT file.name ASCENDING
 SORT base_level ASCENDING
@@ -396,7 +394,6 @@ CP | SP | GP | PP | CR |
 |     A Scale from Braga's Armor      |   1    |   1    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | `INPUT[toggle:items_attunement[10]]` | `INPUT[toggle:items_attuned[10]]` |
 |         Bone Crossbow Bolt          |   7    |   1    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Pierce Dragon Scales                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | `INPUT[toggle:items_attunement[11]]` | `INPUT[toggle:items_attuned[11]]` |
 |        Cloak of Irridescence        |   1    |   1    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <details>This shimmering cloak is made from the scales of a scitalis. While in an area of bright or dim light, you can pull the cloak’s hood over your head to cause the scales to glimmer and shine. Each creature within 10 feet of you must succeed on a DC 15 Constitution saving throw or be blinded until the end of its next turn. Once this property has been used twice, it can’t be used again until the next dawn. Pulling the hood up or down requires an action.</details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | `INPUT[toggle:items_attunement[12]]` | `INPUT[toggle:items_attuned[12]]` |
-|     Robes of Psychic Resistance     |   1    |   1    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Grants Resistance to Psychic Damage                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | `INPUT[toggle:items_attunement[13]]` | `INPUT[toggle:items_attuned[13]]` |
 |          Military Medalian          |   1    |   1    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     From the Emperor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | `INPUT[toggle:items_attunement[14]]` | `INPUT[toggle:items_attuned[14]]` |
 |          Potion of Healing          |   2    |   1    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <details>you regain 2d4 + 2 hit points when you drink this potion. The potion's red liquid glimmers when agitated.</details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | `INPUT[toggle:items_attunement[15]]` | `INPUT[toggle:items_attuned[15]]` |
 |      Potion of Greater Healing      |   1    |   1    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <details>You regain 4d4+4 hit points when you drink this potion. Whatever its potency, the potion’s red liquid glimmers when agitated.</details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | `INPUT[toggle:items_attunement[16]]` | `INPUT[toggle:items_attuned[16]]` |
