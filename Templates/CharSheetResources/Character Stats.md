@@ -1,13 +1,5 @@
----
-curHP: 0
-maxHP: 0
-ac: 0
-regAC: 5
-tempHP: 0
-prof: 1
-hitDieMax: 1
-curHitDice: 1
----
+
+
 
 HP | AC | Base AC | Speed | Initiative |
 :---:|:---:|:---:|:---:|:---:|:---:|

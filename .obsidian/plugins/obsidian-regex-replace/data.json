@@ -1,6 +1,6 @@
 {
-  "findText": "hit_die_max",
-  "replaceText": "hitDieMax",
+  "findText": "true",
+  "replaceText": "false",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": false,

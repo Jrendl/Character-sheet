@@ -1,15 +1,4 @@
----
-langProfs:
-  - Common
-profs:
-    saves:
-        dex: false
-        cha: false
-        con: false
-        str: false
-        int: false
-        wis: false
----
+
 
 ## Saving Throws
 

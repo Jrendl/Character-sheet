@@ -1,8 +1,3 @@
----
-level: 1
-insp: 0
----
-
 > (Description:: ) Character Description
 
 `BUTTON[l-r]`
