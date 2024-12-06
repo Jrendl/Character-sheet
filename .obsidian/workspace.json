@@ -22,22 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "35c53184db727793",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "10c8923505ff6d88",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -290,12 +274,22 @@
                 "id": "ID_6939eb28a98a",
                 "child": "ID_08099aeadb59"
               },
-              "icon": "CALENDARIUM",
-              "title": "Calendarium"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "d822e3d128f28079",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "15caa0a85e2302fa",
@@ -359,8 +353,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 351.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -371,10 +364,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10c8923505ff6d88",
+  "active": "96ce4985474091c1",
   "lastOpenFiles": [
     "Avail commands.md",
     "scripts/spellScaling.js",
