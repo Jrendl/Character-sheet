@@ -11,10 +11,14 @@
             "id": "d94c1c6c958b3807",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -360,15 +364,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "calendarium:Open Calendarium": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "d94c1c6c958b3807",
   "lastOpenFiles": [
-    "Templates/CharSheetResources/Spell List.md",
-    "Examples/Theo.md",
     "Templates/Common Character Sheet Template.md",
+    "Examples/Theo.md",
+    "Templates/CharSheetResources/Spell List.md",
     "Templates/CharSheetResources",
     "Templates/Bob.md",
     "Templates/CharSheetResources/General Character Info.md",
